@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Voice Chat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Talk With Strangers</h1>
+    <nav>
+      <ul>
+        <li id="onlineStatus">Online: 0</li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="chat">
+      <div id="userInfo">
+        <p>Connected to: <span id="connectedUser">None</span></p>
+        <p>Country: <span id="userCountry">N/A</span></p>
+      </div>
+      <div id="controls">
+        <button id="callButton">Call</button>
+        <button id="autoCallButton">Auto Call</button>
+        <button id="muteButton">Mute</button>
+        <button id="reportButton">Report</button>
+      </div>
+      <div id="messages">
+        <textarea id="chatBox" placeholder="Type your message here..."></textarea>
+        <button id="sendMessage">Send</button>
+      </div>
+    </section>
+
+    <section id="callHistory">
+      <h2>Call History</h2>
+      <ul id="historyList">
+        <!-- Past calls will appear here -->
+      </ul>
+    </section>
+    <link rel="stylesheet" href="style.css">
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Random Voice Chat. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
